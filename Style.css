@@ -1,3 +1,5 @@
+
+/* General Settings */
 * {
     box-sizing: border-box;
     margin: 0;
@@ -8,5 +10,52 @@ body {
     background-color: #101114;
     color: white;
     font-family: Arial, sans-serif;
+    padding: 25px;
+}
+
+/* Website Header */
+header {
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+header h1 {
+    font-size: 32px;
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+header p {
+    color: #aaaaaa;
+    font-size: 16px;
+}
+
+/* Main Container */
+main {
+    max-width: 900px;
+    margin: auto;
+}
+
+/* Independent Media Window */
+.media-card {
+    background-color: #1c1e24;
+    border: 1px solid #333640;
+    border-radius: 16px;
     padding: 20px;
+    margin-bottom: 25px;
+}
+
+/* Window Title */
+.media-card h2 {
+    font-size: 22px;
+    margin-bottom: 18px;
+}
+
+/* Video Player */
+.media-card iframe {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    border: none;
+    border-radius: 12px;
+    display: block;
 }
