@@ -1,0 +1,12 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #101114;
+    color: white;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
