@@ -1,31 +1,20 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ALION Media</title>
-<link rel="stylesheet" href="Style.css">
+    <link rel="stylesheet" href="Style.css">
 </head>
+
 <body>
 
-<header>
-    <h1>ALION Media</h1>
-    <p>My Personal Media Space</p>
-</header>
-
-<main>
-
-    <section class="media-card">
-        <h2>My First Video</h2>
-
-        <iframe
-            src="https://www.youtube.com/embed/9Zj0JOHJR-s"
-            title="My First Video"
-            allowfullscreen>
-        </iframe>
-    </section>
-
-</main>
+    <iframe
+        src="https://www.youtube.com/embed/9Zj0JOHJR-s"
+        title="ALION Video"
+        allowfullscreen>
+    </iframe>
 
 </body>
 </html>
